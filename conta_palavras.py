@@ -12,7 +12,7 @@ def wordcount(filename):
 
         print("O numero de palavras no arquivo %s é aproximadamente %d!" %(filename, num_words))
 
-
+# Conta as palavras dos três livros txt
 wordcount('book_alice.txt')
 wordcount('book_moby_dick.txt')
 wordcount('book_the_republic.txt')
